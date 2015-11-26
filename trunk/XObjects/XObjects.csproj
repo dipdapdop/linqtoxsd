@@ -93,7 +93,6 @@
     <Compile Include="Src\XObjectsSettings.cs" />
     <Compile Include="Src\XsdToTypesConverter.cs" />
     <Compile Include="Src\SimpleTypeValidator.cs" />
-    <Compile Include="_info.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="key.snk" />
