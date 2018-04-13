@@ -1,0 +1,22 @@
+# Autodetect text files and ensure that we normalise their
+# line endings
+* text=auto
+
+# These should always be checked out with crlf line endings
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.cs text diff=csharp eol=crlf
+*.fs eol=crlf
+*.fsproj eol=crlf
+*.fsy eol=crlf
+*.resx eol=crlf
+*.vsixmanifest eol=crlf
+App.config eol=crlf
+app.config eol=crlf
+
+# These should always be checked out with lf line endings
+*.sh eol=lf
+Makefile eol=lf
+.gitignore eol=lf
+.gitattributes eol=lf
+*.DotSettings eol=lf
